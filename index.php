@@ -44,12 +44,12 @@
                         </div>
                         <span class="card-text">Херсонская<br>область</span>
                     </a>
-                    <a href="crimea/crimea.php" class="card">
+                    <!-- <a href="crimea/crimea.php" class="card">
                         <div class="card-img">
                             <img src="assets/images/emblem_crimea.png" alt="Республика Крым" />
                         </div>
                         <span class="card-text">Республика<br>Крым</span>
-                    </a>
+                    </a> -->
                     <a href="zaporozhye/zaporozhye.php" class="card">
                         <div class="card-img">
                             <img src="assets/images/emblem_zaporozhie.png" alt="Запорожская область" />

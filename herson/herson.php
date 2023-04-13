@@ -59,19 +59,36 @@
                     <span class="heding-text-1">Общая информация</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                    <p class="text">НОМЕРА ТЕЛЕФОНОВ ЭКСТРЕННЫХ СЛУЖБ</br>
+                        Скорая помощь <span class="phone-number">+79900014525</span></br>
+                        Полиция <span class="phone-number">+79901014222</span></br>
+                        МЧС <span class="phone-number">+79901115517</span></br>
+                        РЭС <span class="phone-number">+79900692606</span></br>
+                    </p>
                 </div>
             </div>
             <div class="container-grey" id="goals">
                 <div class="heading min-width">
-                    <span class="heding-text-1">О Республике Крым</span>
+                    <span class="heding-text-1">О Херсонской области</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text"> Херсонская область - административно-территориальная единица Российской Федерации, расположенная по двум берегам нижнего течения Днепра.</br></br>
 
-                    </span>
+                        На западе граничит с Николаевской областью, на севере — с Днепропетровской областью, на востоке — с Запорожской областью, на юге — с Республикой Крым. Находится на берегу Чёрного и Азовского морей.</br></br>
+
+                        Площадь области составляет 28,4 тыс. км², население на начало 2022 года оценивалось в 1,0 млн человек. Административный центр и крупнейший город — Херсон, другие крупные города — Новая Каховка, Каховка и Алёшки.</br></br>
+
+                        Область была образована в 1944 году выделением из Запорожской области Украинской ССР после освобождения от немецкой оккупации.</br></br>
+
+                        Территория Херсонской области составляет 28 461 км², протяжённость с севера на юг — 180 км, с запада на восток — 258 км.</br></br>
+
+                        Область расположена в степной зоне, на нижнем течении реки Днепр. На территории области протекает 19 рек, из них самые крупные: Днепр — 178 км, Ингулец — 180 км. Река Днепр разделяет область на две части — правобережную и левобережную, которую также называют Северной Таврией.</br></br>
+
+                        Главной особенностью географического расположения является выход к Азово-Черноморскому бассейну и Днепровской водной магистрали. Это открывает широкие возможности для дальнейшего развития морских и речных перевозок, индустрии отдыха.</br></br>
+
+                        Климат Херсонской области — умеренно континентальный, засушливый. Среднемесячные температуры: в июле +25,4 °C, в январе −2,1 °C. В отдельные дни летом температура может достигать 40 °C, а зимой −20 °C. Длительность безморозного периода — 179 дней в году. Среднегодовое количество осадков составляет от 320 мм до 400 мм.</br></br>
+
+                    </p>
                 </div>
             </div>
         </main>
