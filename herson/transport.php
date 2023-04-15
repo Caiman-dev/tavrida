@@ -13,23 +13,7 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo-row min-width">
-                <a href="../index.php"><img src="../assets/images/logo.svg" alt="logo" /></a>
-                <div class="logo-text-block">
-                    <span class="logo-text-1">ПЕРВЫЙ ИНФОРМАЦИОННЫЙ ПОРТАЛ</span>
-                    <span class="logo-text-2">ТАВРИЧЕСКИЙ КРАЙ</span>
-                </div>
-            </div>
-            <div class="header-row-1">
-                <span>ГРАЖДАНСКАЯ ИНИЦИАТИВА</span>
-            </div>
-            <div class="header-row-2">
-                <a href="../index.php">Главная</a>
-                <a href="#goals">Цели проекта</a>
-                <a href="#">Контакты</a>
-            </div>
-        </header>
+        <?php include('../page_header.php'); ?>
         <main>
             <div class="container-white">
                 <div class="main-banner">
@@ -59,32 +43,46 @@
                     <span class="heding-text-1">Транспорт</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text-2">Номер горячей линии:</p>
+                    <p class="text">
+                        Эвакуация</br>
+                        <span class="phone-number">+7(990)104-32-51</span></br></br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        Министерство транспорта</br>
+                        <span class="phone-number">+7(990)200-38-01</span></br></br>
+
+                        "Херсонская железная дорога":</br>
+                        <span class="phone-number">+79900014248</span></br></br>
+
+                        Телефон для справок а/с Геническая</br>
+                        <span class="phone-number">+7 990 228 11 56</span></br></br>
+
+                        Телефон для справок а/с Ивановская</br>
+                        <span class="phone-number">+7 990 228 12 64</span></br></br>
+
+                        Телефон для справок а/с Скадовская</br>
+                        <span class="phone-number">+7 990 228 12 65</span></br>
+                    </p></br>
+
+                    <p class="text-2">Адреса отделений МРЭО ГИБДД:</p></br>
+                    <p class="text">
+                        г. Геническ, ул. Возрождения, 170</br>
+                        телефон для справок <span class="phone-number">+79900221275</span></br></br>
+
+                        пгт. Чаплинка, ул. Парковая, 30а</br>
+                        телефон для справок <span class="phone-number">+79900692561</span></br></br>
+
+                        Для замены водительского удостоверения необходимо предоставить паспорт гражданина Российской Федерации и водительское удостоверение. При отсутствии последнего – подтверждение обучения в автошколе.</br>
+                        Для регистрации автотранспорта нужно предоставить его для осмотра с целью идентификации и проверки соответствия конструкции представленным документам, паспорт гражданина РФ и регистрационный документ владельца транспорта. В случае наличия нотариальной доверенности – паспорт доверенного лица.</br>
+                        Медицинские справки о прохождении комиссии и оплата госпошлины НЕ ТРЕБУЮТСЯ.</br>
+                        Режим работы отделений МРЭО ГИБДД: с 09:00 до 18:00, выходные дни: воскресенье, понедельник.</br>
+
+                    </p>
                 </div>
+                <div><img src="../assets/images/table-2.png" alt="table-2"></div>
             </div>
         </main>
-        <footer>
-            <div class="footer-block">
-                <div class="footer-block-1">
-                    <span>www.tavros.ru</span>
-                </div>
-                <div class="footer-block-2">
-                    <div class="footer-block-2-left">
-                        <a href="../herson/herson.php">Херсонская область</a>
-                        <a href="../crimea/crimea.php">Республика Крым</a>
-                        <a href="../zaporozhye/zaporozhye.php">Запорожская область</a>
-                    </div>
-                    <div class="footer-block-2-right">
-                        <span class="click" onclick="ScrollUp();">В начало</span>
-                    </div>
-                </div>
-                <div class="footer-block-3">
-                    <span>Контакты</span>
-                </div>
-            </div>
-        </footer>
+        <?php include('../page_footer.php'); ?>
     </div>
 
     <script src="../assets/scripts/jquery-3.6.4.js"></script>

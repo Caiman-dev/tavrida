@@ -13,23 +13,7 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo-row min-width">
-                <a href="../index.php"><img src="../assets/images/logo.svg" alt="logo" /></a>
-                <div class="logo-text-block">
-                    <span class="logo-text-1">ПЕРВЫЙ ИНФОРМАЦИОННЫЙ ПОРТАЛ</span>
-                    <span class="logo-text-2">ТАВРИЧЕСКИЙ КРАЙ</span>
-                </div>
-            </div>
-            <div class="header-row-1">
-                <span>ГРАЖДАНСКАЯ ИНИЦИАТИВА</span>
-            </div>
-            <div class="header-row-2">
-                <a href="../index.php">Главная</a>
-                <a href="#goals">Цели проекта</a>
-                <a href="#">Контакты</a>
-            </div>
-        </header>
+        <?php include('../page_header.php'); ?>
         <main>
             <div class="container-white">
                 <div class="main-banner">
@@ -59,32 +43,64 @@
                     <span class="heding-text-1">Управление труда и соцполитики</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text">
+                        Телефон горячей линии Министерства труда и социальной политики Херсонской области</br>
+                        <span class="phone-number">+7 990 034-07-67</span></br></br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        Номер горячей линии управления труда и социальной политики Херсонского городского округа</br>
+                        <span class="phone-number">+79901118013</span> телеграм</br></br>
+
+                        Телефон горячей линии Министерства труда и социальной политики Херсонской области:</br>
+                        <span class="phone-number">+7 990 034-07-67</span></br></br>
+
+                        Телефон горячей линии управления труда и социальной политики Херсонского городского округа:</br>
+                        <span class="phone-number">+7 990 111-80-13</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики по г. Алешки:</br>
+                        <span class="phone-number">+7 990 111-79-28</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики по Голопристанскому МО:</br>
+                        <span class="phone-number">+7 990 111-79-46</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики по Скадовскому МО:</br>
+                        <span class="phone-number">+7 990 203-53-10</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики по Геническому МО:</br>
+                        <span class="phone-number">+7 990 091-64-55</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики по Ново Каховкскому МО :</br> <span class="phone-number">+7 990 099-75-13</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики по Каховскому МО:</br> <span class="phone-number">+7 990 124-85-38, +7 990 126-77-36</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики по Новотроицкому МО:</br> <span class="phone-number">+ 7 990 123-11-27</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики Белозёрского МО:</br> <span class="phone-number">+7 990 124-85-61</span></br></br>
+
+
+                        ️Телефон горячей линии управления труда и социальной политики Чаплинского МО:</br> <span class="phone-number">+7 990 052-28-39</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики Каланчакского МО:</br> <span class="phone-number">+7 990 060-62-23</span></br></br>
+
+                        ️Телефон горячей линии управления труда и социальной политики Береславского МО:</br> <span class="phone-number">+7 990 019-71-56</span></br></br>
+
+                        Адреса отделений Фонда пенсионного и социального страхования Российской Федерации по Херсонской области.</br>
+                        ✅ г. Геническ, пр-т Мира, 43;</br>
+                        ✅ пгт.Новотроицк, ул. Соборная, 87-а;</br>
+                        ✅ г. Скадовск, ул. Александровская, 32;</br>
+                        ✅ г. Скадовск, ул. Гагарина, 59</br>
+                        ✅ г. Скадовск, ул. Мариинская, 66</br>
+                        ✅ пгт. Каланчак ул. Строителей, 18;</br>
+                        ✅ пгт. Нижние Серогозы,ул. Высочина,5;</br>
+                        ✅ пгт. Ивановка, ул. Ивановская, 34;</br>
+                        ✅ пгт. В. Рогачик, (здание администрации);</br>
+                        ✅ пгт. Чаплынка, ул. Грушевского 38;</br>
+                        ✅ с. Великая Благовещенка ул. Мира 16</br>
+                        ✅ пгт. Горностаевка ул. Торговая 20 (Райавтодор)
+                    </p>
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="footer-block">
-                <div class="footer-block-1">
-                    <span>www.tavros.ru</span>
-                </div>
-                <div class="footer-block-2">
-                    <div class="footer-block-2-left">
-                        <a href="../herson/herson.php">Херсонская область</a>
-                        <a href="../crimea/crimea.php">Республика Крым</a>
-                        <a href="../zaporozhye/zaporozhye.php">Запорожская область</a>
-                    </div>
-                    <div class="footer-block-2-right">
-                        <span class="click" onclick="ScrollUp();">В начало</span>
-                    </div>
-                </div>
-                <div class="footer-block-3">
-                    <span>Контакты</span>
-                </div>
-            </div>
-        </footer>
+        <?php include('../page_footer.php'); ?>
     </div>
 
     <script src="../assets/scripts/jquery-3.6.4.js"></script>

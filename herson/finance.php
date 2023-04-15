@@ -13,23 +13,7 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo-row min-width">
-                <a href="../index.php"><img src="../assets/images/logo.svg" alt="logo" /></a>
-                <div class="logo-text-block">
-                    <span class="logo-text-1">ПЕРВЫЙ ИНФОРМАЦИОННЫЙ ПОРТАЛ</span>
-                    <span class="logo-text-2">ТАВРИЧЕСКИЙ КРАЙ</span>
-                </div>
-            </div>
-            <div class="header-row-1">
-                <span>ГРАЖДАНСКАЯ ИНИЦИАТИВА</span>
-            </div>
-            <div class="header-row-2">
-                <a href="../index.php">Главная</a>
-                <a href="#goals">Цели проекта</a>
-                <a href="#">Контакты</a>
-            </div>
-        </header>
+        <?php include('../page_header.php'); ?>
         <main>
             <div class="container-white">
                 <div class="main-banner">
@@ -59,32 +43,50 @@
                     <span class="heding-text-1">Финансы</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text-2">Управление ФНС России по региону</p>
+                    <p class="text">
+                        г. Скадовск, ул. Александровская, 32-А</br>
+                        Время работы: пн.9.00-18.00,</br>
+                        вт. 9.00-20.00,</br>
+                        ср. 9.00-18,00,</br>
+                        чт. 9.00-20.00,</br>
+                        пт. 9.00-16.45.</br>
+                        Телефон: +7 (990) 015-81-71</br></br>
+                    </p>
+                    <p class="text-2">МИНИСТЕРСТВО ФИНАНСОВ ХЕРСОНСКОЙ ОБЛАСТИ</p></br>
+                    <p class="text">
+                        Руководитель: НЕМТИНОВ ЕВГЕНИЙ ВИКТОРОВИЧ</br>
+                        +7 (990) 126-04-65</br></br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        ТОРМ УФНС России по Херсонской области</br>
+                        г. Скадовск, ул. Александровская, 32-А</br></br>
+
+                        ТОРМ УФНС России по Херсонской области</br>
+                        г.Геническ, ул. Братьев Коваленко, 60</br></br>
+
+                        ТОРМ УФНС России по Херсонской области</br>
+                        пгт. Нижние Серогозы, ул. Высочина, 2</br></br>
+
+                        На данный момент обмен гривны для физических лиц открыт в трех областных отделениях ПСБ:</br>
+                        г. Геническ, ул. Соборная 35;</br>
+                        г. Скадовск, ул. Мариинская 66;</br>
+                        пгт. Новотроицкое, ул. Банковая 3.</br></br>
+
+                        Кроме того, обмен доступен в трех отделениях ЦМР и МРБ-Банка:</br>
+                        г. Геническ, проспект Мира, 35;</br>
+                        г. Скадовск, ул. Сергеевская, 10;</br>
+                        пгт. Новотроицкое, ул. Соборная, 88.</br></br>
+
+                        Получить консультации по вопросам обмена гривны на рубли можно в банковских контактных центрах:</br>
+                        —
+                        <span class="phone-number">8 800 300-30-00</span> (Банк России);</br>
+                        — <span class="phone-number">8 800 333-03-03</span> (Промсвязьбанк);</br>
+                        — <span class="phone-number">8 800 234-43-00</span> (ЦМР-Банк и МРБ-Банк)</br>
+                    </p>
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="footer-block">
-                <div class="footer-block-1">
-                    <span>www.tavros.ru</span>
-                </div>
-                <div class="footer-block-2">
-                    <div class="footer-block-2-left">
-                        <a href="../herson/herson.php">Херсонская область</a>
-                        <a href="../crimea/crimea.php">Республика Крым</a>
-                        <a href="../zaporozhye/zaporozhye.php">Запорожская область</a>
-                    </div>
-                    <div class="footer-block-2-right">
-                        <span class="click" onclick="ScrollUp();">В начало</span>
-                    </div>
-                </div>
-                <div class="footer-block-3">
-                    <span>Контакты</span>
-                </div>
-            </div>
-        </footer>
+        <?php include('../page_footer.php'); ?>
     </div>
 
     <script src="../assets/scripts/jquery-3.6.4.js"></script>

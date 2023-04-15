@@ -13,23 +13,7 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo-row min-width">
-                <a href="../index.php"><img src="../assets/images/logo.svg" alt="logo" /></a>
-                <div class="logo-text-block">
-                    <span class="logo-text-1">ПЕРВЫЙ ИНФОРМАЦИОННЫЙ ПОРТАЛ</span>
-                    <span class="logo-text-2">ТАВРИЧЕСКИЙ КРАЙ</span>
-                </div>
-            </div>
-            <div class="header-row-1">
-                <span>ГРАЖДАНСКАЯ ИНИЦИАТИВА</span>
-            </div>
-            <div class="header-row-2">
-                <a href="../index.php">Главная</a>
-                <a href="#goals">Цели проекта</a>
-                <a href="#">Контакты</a>
-            </div>
-        </header>
+        <?php include('../page_header.php'); ?>
         <main>
             <div class="container-white">
                 <div class="main-banner">
@@ -59,32 +43,26 @@
                     <span class="heding-text-1">Министерства</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text">
+                        <strong>Министерство промышленности и энергетики</strong></br>
+                        <span class="phone-number">+7 (990) 016-38-45</span></br></br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        <strong>Министерство здравоохранения</strong></br>
+                        <span class="phone-number">+79900346787</span></br></br>
+
+                        <strong>Министерство по молодежной политике</strong></br>
+                        <span class="phone-number">+7 (990) 131-82-13</span></br></br>
+
+                        <strong>Министерство труда и социальной политики</strong></br>
+                        <span class="phone-number">+7 (990) 034-07-67</span></br></br>
+
+                        <strong>Министерство имущественных и земельных отношений</strong></br>
+                        <span class="phone-number">+79900014562</span>
+                    </p>
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="footer-block">
-                <div class="footer-block-1">
-                    <span>www.tavros.ru</span>
-                </div>
-                <div class="footer-block-2">
-                    <div class="footer-block-2-left">
-                        <a href="../herson/herson.php">Херсонская область</a>
-                        <a href="../crimea/crimea.php">Республика Крым</a>
-                        <a href="../zaporozhye/zaporozhye.php">Запорожская область</a>
-                    </div>
-                    <div class="footer-block-2-right">
-                        <span class="click" onclick="ScrollUp();">В начало</span>
-                    </div>
-                </div>
-                <div class="footer-block-3">
-                    <span>Контакты</span>
-                </div>
-            </div>
-        </footer>
+        <?php include('../page_footer.php'); ?>
     </div>
 
     <script src="../assets/scripts/jquery-3.6.4.js"></script>

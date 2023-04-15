@@ -13,23 +13,7 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo-row min-width">
-                <a href="../index.php"><img src="../assets/images/logo.svg" alt="logo" /></a>
-                <div class="logo-text-block">
-                    <span class="logo-text-1">ПЕРВЫЙ ИНФОРМАЦИОННЫЙ ПОРТАЛ</span>
-                    <span class="logo-text-2">ТАВРИЧЕСКИЙ КРАЙ</span>
-                </div>
-            </div>
-            <div class="header-row-1">
-                <span>ГРАЖДАНСКАЯ ИНИЦИАТИВА</span>
-            </div>
-            <div class="header-row-2">
-                <a href="../index.php">Главная</a>
-                <a href="#goals">Цели проекта</a>
-                <a href="#">Контакты</a>
-            </div>
-        </header>
+        <?php include('../page_header.php'); ?>
         <main>
             <div class="container-white">
                 <div class="main-banner">
@@ -59,32 +43,48 @@
                     <span class="heding-text-1">Сельское хозяйство</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text">
+                        г. Скадовск, ул. Пролетарская 64.</br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        <span class="phone-number">+7 (990) 105-29-14 +79900586632</span></br></br>
+
+                        <strong>Пункт выдачи пропусков владельцам транспорта, задействованного в перевозках сельхозпродукции</strong></br>
+
+                        г. Геническ, ул. Мира, 52, 2-й этаж</br>
+
+                        "Ассоциация фермеров и сельхозпроизводителей Херсонской области" и "Общественный совет при ВГА Скадовского муниципального округа"</br>
+
+                        Обращаться по адресу: Скадовск, ул. Мариинская, 66,</br>
+                        тел <span class="phone-number">+7990-016-73-02.</span></br></br>
+
+                        Проконсультироваться касаемо сельскохозяйственных субсидий можно по телефону: <span class="phone-number">+79900131658</span></br>
+
+                        Горячая линия для работников сельскохозяйственной отрасли по вопросам эвакуации: <span class="phone-number">+79900803743</span></br></br>
+
+                        Минсельхоз Херсонской области напоминает субъектам хозяйствования о необходимости регистрации в системе «Меркурий»</br>
+                        Оператором ФГИС «Меркурий» в регионе является Управление ветеринарии Херсонской области.</br>
+
+                        Контактный номер администратора: <span class="phone-number">+7 990 002 40 59</span></br></br>
+
+                        Вывезти зерно из Херсонской области можно только по специальному пропуску</br>
+
+                        На одно транспортное средство выдаётся только один пропуск, его срок действия – 5 дней.</br>
+                        Кроме того, теперь все фермеры, которые хранят и перевозят злаковые, зернобобовые и масличные культуры, обязаны его декларировать.</br>
+                        Необходимые бланки можно взять здесь.</br>
+                        Пункты выдачи пропусков расположены по адресу:</br>
+
+                        г. Скадовск, ул. Мангубинская, д. 64;</br>
+
+                        г. Геническ, просп. Мира, д. 52, 2 этаж;</br>
+
+                        г. Каховка, ул. Карла Маркса, д. 131-А;</br>
+
+                        г. Новотроицк, ул. Шевченко, д. 131.</br>
+                    </p>
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="footer-block">
-                <div class="footer-block-1">
-                    <span>www.tavros.ru</span>
-                </div>
-                <div class="footer-block-2">
-                    <div class="footer-block-2-left">
-                        <a href="../herson/herson.php">Херсонская область</a>
-                        <a href="../crimea/crimea.php">Республика Крым</a>
-                        <a href="../zaporozhye/zaporozhye.php">Запорожская область</a>
-                    </div>
-                    <div class="footer-block-2-right">
-                        <span class="click" onclick="ScrollUp();">В начало</span>
-                    </div>
-                </div>
-                <div class="footer-block-3">
-                    <span>Контакты</span>
-                </div>
-            </div>
-        </footer>
+        <?php include('../page_footer.php'); ?>
     </div>
 
     <script src="../assets/scripts/jquery-3.6.4.js"></script>
