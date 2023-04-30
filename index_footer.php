@@ -3,7 +3,7 @@
 <footer>
     <div class="footer-block">
         <div class="footer-block-1">
-            <span>www.tavros.ru</span>
+            <span>www.tavris.info</span>
         </div>
         <div class="footer-block-2">
             <div class="footer-block-2-left">

@@ -29,12 +29,15 @@
                         </div>
                         <span class="card-text">Херсонская<br>область</span>
                     </a>
-                    <!-- <a href="crimea/crimea.php" class="card">
-                        <div class="card-img">
-                            <img src="assets/images/emblem_crimea.png" alt="Республика Крым" />
-                        </div>
-                        <span class="card-text">Республика<br>Крым</span>
-                    </a> -->
+                    <div disabled="true">
+                        <a href="crimea/crimea.php" class="card disabled">
+                            <div class="card-img">
+                                <img src="assets/images/emblem_crimea.png" alt="Республика Крым" />
+                            </div>
+                            <span class="card-text">Республика<br>Крым</span>
+                            <span>*в разработке</span>
+                        </a>
+                    </div>
                     <a href="zaporozhye/zaporozhye.php" class="card">
                         <div class="card-img">
                             <img src="assets/images/emblem_zaporozhie.png" alt="Запорожская область" />
@@ -48,19 +51,31 @@
                     <span class="heding-text-1">О нас и целях проекта</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">ГРАЖДАНСКАЯ ИНИЦИАТИВА, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text">
+                        Добро пожаловать на сайт «Таврический Край»!</br>
+                        Эта платформа создана для отражения справочной информации в новых регионах Российской Федерации.</br></br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-                </div>
-            </div>
-            <div class="container-white">
-                <div class="heading min-width">
-                    <span class="heding-text-1">О Таврическом Крае</span>
-                </div>
-                <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        У нас удобный и простой интерфейс для поиска информации. Справочники разделены по регионам: Запорожская и Херсонская области, а в будущем и АР Крым.</br></br>
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                        Мы приглашаем всех не только использовать этот сайт, но и принять участие в нашей гражданской инициативе. Через телеграм-бот @TavrisBot Вы можете сообщать актуальную информацию для обновления этого сайта, свои пожелания и замечания.</br></br>
+
+                        Мы собираем информацию:
+                    <ul>
+                        <li>об экономике;</li>
+                        <li>образовании;</li>
+                        <li>культуре;</li>
+                        <li>здравоохранении;</li>
+                        <li>транспорте</li>
+                    </ul>
+                    </p>
+                    <p class="text">
+                        и многом другом, что может помочь людям сориентироваться в новых условиях.</br></br>
+
+
+                        «Таврический Край» – это не просто справочник, это целый проект, созданный для поддержки жителей новых регионов России. Мы сотрудничаем с экспертами и специалистами в различных областях, чтобы отражать максимально точную и актуальную информацию для наших пользователей.</br></br>
+
+                        Все сведения на сайте «Таврический край» собраны из открытых официальных источников, поэтому мы не можем отвечать за работу того или иного ведомства, если их данные содержат неточности. Но мы гарантируем, что будем делать всё возможное, чтобы читатели «Таврического края» могли доверять информации на этом сайте.</br>
+                    </p>
                 </div>
             </div>
         </main>
