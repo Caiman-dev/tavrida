@@ -50,6 +50,12 @@ header {
     height: 90px;
 }
 
+.header__href {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
 .logo-text-block {
     padding-left: 20px;
     display: flex;

@@ -40,22 +40,28 @@
             </div>
             <div class="container-white">
                 <div class="heading min-width">
-                    <span class="heding-text-1">Общая информация</span>
-                </div>
-                <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-                </div>
-            </div>
-            <div class="container-grey" id="goals">
-                <div class="heading min-width">
                     <span class="heding-text-1">О Запорожской области</span>
                 </div>
                 <div class="text-block min-width">
-                    <span class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <span class="text">Запоро́жская о́бласть — административно-территориальная единица Российской Федерации, расположенная на западе страны, в нижнем течении Днепра. </br></br>
 
-                    </span>
+На западе граничит с Херсонской областью, на севере — с Днепропетровской областью, на востоке — с Донецкой областью, на юге омывается Азовским морем.</br></br>
+
+Площадь области составляет 27,1 тыс. км², население на начало 2022 года оценивалось в 1,6 млн человек. Административный центр и крупнейший город — Запорожье, другие крупные города — Мелитополь, Бердянск, Энергодар, Токмак.</br></br>
+
+Область была образована в 1939 году выделением из Днепропетровской области Украинской ССР. В 1944 году из состава области была выделена западная часть, ставшая Херсонской областью.</br></br>
+
+Иногда всю область некорректно называют Запорожьем, хотя исторически это название носила территория к северу от большей части Запорожской области, в районе нынешней Днепропетровской области.</br></br>
+
+Для Запорожской области характерен равнинный ландшафт, расположена в основном на Приднепровской низменности, которая на юге переходит в Причерноморскую, юго-восточную часть занимает Приазовская возвышенность. Вдоль побережья Азовского моря простираются длинные узкие песчаные косы, намытые морем.</br></br>
+
+Протяжённость с севера на юг — 208 км, с запада на восток — 235 км.</br></br>
+
+На территории Запорожской области протекает 109 рек, самая большая из которых — Днепр, являющаяся важной транспортной артерией, обеспечивающей промышленность области, на ней построен ряд водохранилищ.</br></br>
+
+Условно Запорожская область делится на три природно-сельскохозяйственные зоны — зону степи (50,8 % территории), степную засушливую (34,8 %), и сухостепную (14,4 %) зоны. Почвы преимущественно чернозёмные. Также здесь находятся значительные запасы гранитов, а также железной и марганцевой руд.</br></br>
+
+Климат умеренно континентальный, характеризуется чётко выраженной засушливостью. Среднегодовые температуры: летняя +22 °С, зимняя — 4,5 °С. В году в среднем 225 солнечных дней, уровень осадков составляет 448 мм.</br></br>
                 </div>
             </div>
         </main>
